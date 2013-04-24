@@ -1,0 +1,29 @@
+﻿body {
+margin: 0;
+    background: url("/site/static/img/master/bg-repeater.jpg") repeat-x top center;
+}
+
+div.content { width: 1024px;margin: 0 auto;position: relative;}
+
+header { width: 100%;position: fixed;top: 0;}
+header .content {background-color: #191818;height: 136px;}
+header #logo { padding: 10px 0 0 24px;}
+header .text-container {width: 750px;padding: 34px 64px 0 0;position: absolute;top: 0;right: 0;text-align: right;}
+header #taproom { font-family: Roman;font-size: 10px; text-transform: uppercase;color: #d64d00;}
+header nav {margin-top: 64px;}
+header nav a,header nav a:link, header nav a:visited { font-family: Helvetica Neue;font-size: 20px;line-height: 20px;text-transform: uppercase;color: #9f9e9e;text-decoration: none;} 
+header nav a { margin: 0 20px;}
+header nav a.last { margin-right: 0;}
+header .grunge { background-color: transparent; width: 1024px;margin: 0 auto;position: relative;text-align: center;}
+/* .header-grunge {height: 58px;width: 100%;
+    background: url("/site/static/img/master/header-grunge-repeat.png") 0 0 repeat-x,
+                url("/site/static/img/master/header-grunge-repeat.png") top right repeat-x;
+    text-align: center;          
+                }
+.header-grunge img { background: #ffffff;} */
+
+footer { background-color: #191818;background-image: url(/site/static/img/master/footer-grunge.png);}
+
+/* HOME */
+article { margin-top: 114px;}
+article#home div.content {height: 760px;width: 1024px; background: url(/site/static/img/home/background.jpg) top center no-repeat;}
